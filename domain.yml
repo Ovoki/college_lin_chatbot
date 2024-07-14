@@ -1,0 +1,47 @@
+version: "2.0"
+intents:
+  - greet
+  - inquire_admission
+  - inquire_courses
+  - inquire_student_count
+  - inquire_teacher_count
+  - inquire_staff_count
+  - inquire_facilities
+  - inquire_lab_details
+  - inquire_bot_name
+  - goodbye
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_admission_info:
+    - text: "You can apply for admission through our website. Visit the admissions page for more details."
+
+  utter_course_info:
+    - text: "We offer MCA and BCA courses."
+
+  utter_student_count:
+    - text: "Currently, we have 44 students enrolled at our college."
+
+  utter_teacher_count:
+    - text: "We have 3 dedicated teachers at our college."
+
+  utter_staff_count:
+    - text: "Our college has 2 support staff members."
+
+  utter_facilities:
+    - text: "Yes, we have a drinking water filter on campus."
+
+  utter_lab_details:
+    - text: "Our lab is equipped with 15 computers and 3 laptops."
+
+  utter_bot_name:
+    - text: "My name is Campus Link, and I'm here to help you with information about our college."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_iamabot:
+    - text: "I am a bot, here to assist you with information about our college."

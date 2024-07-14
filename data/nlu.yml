@@ -1,0 +1,70 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: inquire_admission
+  examples: |
+    - How can I apply for admission?
+    - What is the admission process?
+    - How do I get admission?
+
+- intent: inquire_courses
+  examples: |
+    - What courses do you offer?
+    - Tell me about the courses available.
+    - Which programs are available?
+
+- intent: inquire_student_count
+  examples: |
+    - How many students are studying here?
+    - What is the total number of students?
+    - How many students are there?
+
+- intent: inquire_teacher_count
+  examples: |
+    - How many teachers are there?
+    - What is the total number of teachers?
+    - How many faculty members are there?
+
+- intent: inquire_staff_count
+  examples: |
+    - How many staff members do you have?
+    - What is the total number of staff?
+    - How many support staff are there?
+
+- intent: inquire_facilities
+  examples: |
+    - Do you have a drinking water filter?
+    - Is there a water filter available?
+    - Do you provide drinking water facilities?
+
+- intent: inquire_lab_details
+  examples: |
+    - Tell me about the lab facilities.
+    - What equipment is available in the lab?
+    - How many computers and laptops are in the lab?
+
+- intent: inquire_bot_name
+  examples: |
+    - What is your name?
+    - Who are you?
+    - Tell me your name.
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you later
+    - take care
+
+- intent: bot_challenge
+  examples: |
+    - Are you a robot?
+    - Are you real?
+    - Are you a human?

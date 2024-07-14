@@ -1,0 +1,62 @@
+version: "2.0"
+stories:
+- story: greet and inquire about courses
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_courses
+  - action: utter_course_info
+
+- story: greet and inquire about student count
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_student_count
+  - action: utter_student_count
+
+- story: greet and inquire about teacher count
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_teacher_count
+  - action: utter_teacher_count
+
+- story: greet and inquire about staff count
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_staff_count
+  - action: utter_staff_count
+
+- story: greet and inquire about facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_facilities
+  - action: utter_facilities
+
+- story: greet and inquire about lab details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_lab_details
+  - action: utter_lab_details
+
+- story: greet and inquire about bot name
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_iamabot
+  - intent: inquire_bot_name
+  - action: utter_bot_name
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
